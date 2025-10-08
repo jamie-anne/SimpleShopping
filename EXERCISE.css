@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+}
+.title{
+  margin-left: 30px;
+}
+
+.p1, .p2, .p3, .p4, .p5{
+  margin-left: 40px;
+  width: 180px;
+  height: 180px;
+}
+
+.product1, .product2, .product3, .product4, .product5{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.container1, .container2, .container3, .container4, .container5{
+  padding:20px;
+  border: 2px solid rgba(121, 106, 125, 0.245);
+  box-shadow: 0 0 6px rgba(191, 182, 191, 0.745);
+  display: flex;
+  margin: 30px;
+  border-radius: 8px;
+}
+
+.b1, .b2, .b3, .b4, .b5{
+  margin-top: 70px;
+  margin-left: 500px;
+  width: 100px;
+  height:40px;
+  background-color: rgb(36, 212, 92);
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+.b1:hover, .b2:hover, .b3:hover, .b4:hover, .b5:hover{
+  background-color: rgb(23, 181, 91);
+}
+
+form {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  max-width: 330px;
+  margin-bottom: 50px;
+  border: 1px solid #012d01;  
+  border-radius: 8px;
+}
+
+form label {
+  display: block;     
+  margin-top: 10px;
+}
+form input {
+  width: 300px;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 2px solid #585b58;  
+}
+
+.submit_button{
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 100px;
+  height: 30px;
+}
+.form_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carttt{
+  width: 180px;
+  border: 1px solid;
+  border-radius: 8px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.cart{
+  padding:20px;
+  display: flex;
+  margin: 30px;
+  border-radius: 8px;
+}

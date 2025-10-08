@@ -1,0 +1,139 @@
+<!--
+Author: Jamie Anne Banjola
+Date:  10-5-2025 - 10-8-2025
+Description: My simple shop — will continue with the rest :)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="EXERCISE.css">
+</head>
+<body>
+   
+    <div class="title">
+        <h1>Jamie's Find</h1>
+        <h5><i>Discover, click, and shop with ease.</i></h5>
+    </div>
+    
+    <div class="container1">
+        <img src="IMAGES/pro1.jpg" class="p1" id="p1">
+        <div class="product1">
+            <label id="label1"><b>Shoes 1</b></label>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quod, dolor.</p>
+            <label id="price1"><b>Php 650.00</b></label>
+        </div>
+        <button class="b1" id="button1">Add</button>
+    </div>
+    <div class="container2">
+        <img src="IMAGES/pro2.jpg" class="p2" id="p2">
+        <div class="product2">
+            <label id="label2"><b>Shoes 2</b></label>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quod, dolor.</p>
+            <label id="price2"><b>Php 500.00</b></label>
+        </div>
+        <button class="b2" id="button2">Add</button>
+    </div>
+    <div class="container3">
+        <img src="IMAGES/pro3.jpg" class="p3" id="p3">
+        <div class="product3">
+            <label id="label3"><b>Shoes 3</b></label>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quod, dolor.</p>
+            <label id="price3"><b>Php 700.00</b></label>
+        </div>
+        <button class="b3" id="button3">Add</button>
+    </div>
+    <div class="container4">
+        <img src="IMAGES/pro4.jpg" class="p4" id="p4">
+        <div class="product4">
+            <label id="label4"><b>Shoes 4</b></label>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quod, dolor.</p>
+            <label id="price4"><b>Php 680.00</b></label>
+        </div>
+        <button class="b4" id="button4">Add</button>
+    </div>
+    <div class="container5">
+        <img src="IMAGES/pro5.jpg" class="p5" id="p5">
+        <div class="product5">
+            <label id="label5"><b>Shoes 5</b></label>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quod, dolor.</p>
+            <label id="price5"><b>Php 720.00</b></label>
+        </div>
+        <button class="b5" id="button5">Add</button>
+    </div>
+    <hr>
+    <h1>Your cart</h1>
+    <div class="cart" id="cart">
+        <div class="cart1" id="cart1">
+            <p id="cart1_picture" class="cart1_picture"></p>
+            <p id="cart1_quantity" class="cart1_quantity"></p>
+            <p id="cart1_label" class="cart1_label"></p>
+            <p id="cart1_totalprize" class="cart1_totalprize"></p>
+            <p id="delete1" class="delete"></p>
+        </div>
+        
+        <div class="cart2" id="cart2">
+            <p id="cart2_picture" class="cart2_picture"></p>
+            <p id="cart2_quantity" class="cart2_quantity"></p>
+            <p id="cart2_label" class="cart2_label"></p>
+            <p id="cart2_totalprize" class="cart2_totalprize"></p>
+            <p id="delete2" class="delete"></p>
+        </div>
+
+        <div class="cart3" id="cart3">
+            <p id="cart3_picture" class="cart3_picture"></p>
+            <p id="cart3_quantity" class="cart3_quantity"></p>
+            <p id="cart3_label" class="cart3_label"></p>
+            <p id="cart3_totalprize" class="cart3_totalprize"></p>
+            <p id="delete3" class="delete"></p>
+        </div>
+
+        <div class="cart4" id="cart4">
+            <p id="cart4_picture" class="cart4_picture"></p>
+            <p id="cart4_quantity" class="cart4_quantity"></p>
+            <p id="cart4_label" class="cart4_label"></p>
+            <p id="cart4_totalprize" class="cart4_totalprize"></p>
+            <p id="delete4" class="delete"></p>
+        </div>
+
+        <div class="cart5" id="cart5">
+            <p id="cart5_picture" class="cart5_picture"></p>
+            <p id="cart5_quantity" class="cart5_quantity"></p>
+            <p id="cart5_label" class="cart5_label"></p>
+            <p id="cart5_totalprize" class="cart5_totalprize"></p>
+            <p id="delete5" class="delete"></p>
+        </div>
+    </div>
+    
+    <hr>
+    <h2>Order Form</h2>
+    <div class="form_container">
+        <form>
+            <label class="name">Full name: </label>
+            <input type="text" id="name" class="name" minlength="3" required>
+            <br>
+            <br>
+            <label class="email">Email: </label>
+            <input type="email" id="email" class="email" required>
+            <br>
+            <br>
+            <label class="address">Address: </label>
+            <input type="text" id="address" class="address" required>
+            <br>
+            <br>
+            <label class="credit">Credit Number: </label>
+            <input type="text" id="credit" class="credit" minlength="16" maxlength="16" required>
+            <br>
+            <br>
+            <label id="totalPrice">Total: </label>
+            <button class="submit_button">Submit Order</button>
+            
+        </form>
+    </div>
+</body>
+    <script src="EXERCISE.js"></script>
+
+</body>
+</html>
